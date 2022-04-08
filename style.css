@@ -1,0 +1,36 @@
+*{
+	background-color: lightslategray;
+}
+.container {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: repeat(5, 1fr);
+	grid-column-gap: 0px;
+	grid-row-gap: 0px;
+}
+
+.border {
+ 	grid-area: 2 / 3 / 4 / 4; 
+	border: 2px solid black;
+	padding: 100px;
+ }
+
+ .botao{
+ 	grid-area: 1 / 3 / 2 / 3;
+ 	height: 40px;
+ 	justify-self: center;
+ }
+
+input{
+	height: 20px;
+	width: 30px;
+	text-align: center;
+	color: #474747;
+  	border: 1px solid black;
+	background-color: rgb(255, 255, 255);
+}
+
+#topleft { grid-area: 2 / 2 / 3 / 3; justify-self: end;}
+#bottomleft { grid-area: 3 / 2 / 4 / 3; place-self: end;}
+#topright { grid-area: 2 / 4 / 3 / 5; }
+#bottomright { grid-area: 3 / 4 / 4 / 5; place-self: end start; }
