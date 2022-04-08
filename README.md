@@ -1,6 +1,6 @@
 # Border-Radius-Previewer
 Gerador de border-radius css, feito para o desafio do [AppIdeas](https://github.com/florinpop17/app-ideas).
-Veja uma [demo aqui](https://codepen.io/gustavoaqm/pen/qBpYyyE)
+Veja uma [demo aqui](https://codepen.io/gustavoaqm/pen/qBpYyyE).
 
 **Nível:** 1-Iniciante
 
